@@ -1,12 +1,12 @@
 #include<stdio.h>
 int main()
 {
-	float w, l;
-	scanf("%f", &w);
-	scanf("%f", &l);
-	if (w >= 0 and l >= 0)
+	int a, b, area;
+	scanf_s("%d %d", &a, &b);
+	area = a * b;
+	if (a >= 0 and b >= 0)
 	{
-		printf("Area = %f x %f = %f", w, l, w*l);
+		printf("Area = %d x %d = %d", a, b, area);
 	}
 	else
 	{
