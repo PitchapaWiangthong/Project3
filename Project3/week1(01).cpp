@@ -2,11 +2,16 @@
 int main()
 {
 	int a, b, area;
-	scanf_s("%d %d", &a, &b);
+	scanf_s("%d", &a);
+	scanf_s("%d", &b);
 	area = a * b;
 	if (a >= 0 and b >= 0)
 	{
-		printf("Area = %d x %d = %d", a, b, area);
+		printf("Width = %d cm.\n", a);
+		printf("Length = %d cm.\n", b);
+		printf("Area = Width x Length\n");
+		printf("     = %d x %d\n", a, b);
+		printf("     = %d cm.", area);
 	}
 	else
 	{
